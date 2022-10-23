@@ -3,15 +3,18 @@ using namespace std;
 
 int main() {
   double num1, num2, product;
-  cout << "Enter two numbers: ";
+  cout << "Enter First Number:"<<endl; 
+  cin>> num1; //Takes First number from the user
+  cout<<"Enter Second Number:"<<endl;
+  cin>> num2; //Takes Second Number From the User
 
   // stores two floating point numbers in num1 and num2 respectively
-  cin >> num1 >> num2;
+  //cin >> num1 >> num2;
  
   // performs multiplication and stores the result in product variable
   product = num1 * num2;  
 
-  cout << "Product = " << product;    
+  cout << "The Product of Both the Numbers: " << product;    
     
   return 0;
 }
